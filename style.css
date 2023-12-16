@@ -1,52 +1,61 @@
+/*Сбрасывает все стили*/
 *{
     padding: 0;
     margin: 0;
 }
 
+/*Стили для тегов - без точки*/
 img{
-    border: 0;
-    width: 750px;
+    border: 0; /*Рамка*/
+    width: 750px; /*Ширина*/
 }
 
 body{
-    background: beige;
-    font: 12px Arial;
-    color: #555;
-    line-height: 1.3;
+    background: beige; /*Фон*/
+    font: 12px Arial; /*Шрифт*/
+    color: #555; /*Цвет текста*/
+    line-height: 1.3; /*Межстрочный интервал*/
 }
 
+a{
+    text-decoration: none; /*Убирает подчеркивание у ссылки*/
+    color: darkcyan;
+}
+
+/*Стили для класса начинаются с точки*/
 .container{
     width: 750px;
-    margin: 0 auto;
+    margin: 0 auto; /*Внешний отступ*/
 }
 
 .header{
-    padding: 30px 0 0 0;
-    margin-bottom: 15px;
+    padding: 30px 0 0 0; /*Внутренний отступ*/
+    margin-bottom: 15px; /*Внешний нижний отступ*/
 }
 
 .logo{
     margin: 0 auto 20px auto;
-    display: block;
+    display: block; /*Перевод из строчного элемента в блочный*/
     width: 300px;
 }
 
 .menu{
-    list-style: none;
+    list-style: none; /*Убирает пунты списка слева*/
     background: #fff;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 14px; /*Размер текста*/
+    font-weight: bold; /*Жирный шрифт*/
     overflow: hidden;
     border: 1px solid #f3f3f3;
-    border-bottom: 3px solid #9dc5f0;
+    border-bottom: 3px solid #9dc5f0; /*Нижняя рамка*/
 }
 
 .menu li{
     float: left;
-    border-left: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3; /*Левая рамка*/
     padding: 8px 30px;
 }
 
+/*Стиль для первого элмента списка*/
 .menu li:first-child{
     float: left;
     border-left: none;
@@ -58,12 +67,14 @@ body{
     text-decoration: none;
 }
 
+/*Стиль при наведении на элемент*/
 .menu li a:hover{
     color: darkcyan;
 }
 
 .main-content{
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .main-content h1{
@@ -87,7 +98,7 @@ body{
     width: 225px;
     padding: 30px 10px 30px 25px;
     float: right;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; /*Выбор шрифта*/
     font-size: 12px;
 }
 
@@ -100,13 +111,15 @@ body{
 }
 
 .footer{
-    padding: 15px 0 20px 30px;
+    padding: 15px 30px;
     color: #a1a0a7;
+    background: #fff;
+    margin-bottom: 10px;
+    border-top: 3px solid #9dc5f0;
 }
 .right-bar p{
-    line-height: 0;
+    line-height: 0; /*Межстрочный интервал*/
 }
-
 
 
 
