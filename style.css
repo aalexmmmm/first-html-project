@@ -33,7 +33,7 @@ body{
 
 .menu{
     list-style: none;
-    background: white;
+    background: #fff;
     font-size: 14px;
     font-weight: bold;
     overflow: hidden;
@@ -61,3 +61,54 @@ body{
 .menu li a:hover{
     color: darkcyan;
 }
+
+.main-content{
+    overflow: hidden;
+}
+
+.main-content h1{
+    font: normal 24px "Times New Roman";
+    margin-bottom: 20px;
+}
+
+.main-content p{
+    margin-bottom: 20px;
+}
+
+.content-left{
+    background: #fff;
+    padding: 30px;
+    width: 420px;
+    float: left;
+}
+
+.right-bar{
+    background: #fff;
+    width: 225px;
+    padding: 30px 10px 30px 25px;
+    float: right;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.main-content-img{
+    margin-bottom: 10px;
+}
+
+.right-bar h1{
+    font-family: Georgia, serif;
+}
+
+.footer{
+    padding: 15px 0 20px 30px;
+    color: #a1a0a7;
+}
+.right-bar p{
+    line-height: 0;
+}
+
+
+
+
+
+
